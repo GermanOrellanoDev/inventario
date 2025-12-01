@@ -1,9 +1,44 @@
-## Sistema de Inventarios - Fullstack
+# Sistema de Inventarios Fullstack
 
-Sistema de inventarios desarrollado como proyecto Fullstack utilizando Angular para la interfaz de usuario y Spring Boot para la lógica del servidor.  
-La aplicación se conecta a una base de datos MySQL para el almacenamiento persistente de la información.
+Aplicación Fullstack de gestión de inventarios desarrollada con Angular en el frontend y Spring Boot en el backend, conectada a una base de datos MySQL.
 
-Este proyecto demuestra la integración completa entre frontend, backend y base de datos mediante una API REST.
+El proyecto implementa una arquitectura basada en API REST y demuestra la integración completa entre interfaz de usuario, lógica de negocio y persistencia de datos.
+
+---
+
+## Tecnologías utilizadas
+
+### Frontend
+- Angular
+- TypeScript
+- HTML / CSS
+
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+
+### Base de datos
+- MySQL
+
+### Arquitectura
+- API REST
+- Patrón MVC
+- Comunicación mediante HTTP/JSON
+
+---
+
+## Funcionalidades
+
+- Crear productos
+- Editar productos existentes
+- Eliminar productos
+- Listar inventario
+- Persistencia en base de datos MySQL
+- Validación básica de datos
+
+---
 
 ## Demostración
 
@@ -19,4 +54,15 @@ Este proyecto demuestra la integración completa entre frontend, backend y base 
 ### Listado de inventario
 ![listar-productos](https://github.com/user-attachments/assets/2f8c659c-d0eb-4f96-ac18-b6bd697925fa)
 
+---
 
+## Estado del proyecto
+
+Este proyecto se encuentra publicado únicamente como repositorio.  
+No está desplegado públicamente debido a que no cuenta con sistema de autenticación ni control de acceso, evitando así exponer la base de datos a modificaciones externas.
+
+---
+
+## Objetivo
+
+Proyecto desarrollado con fines de práctica y aprendizaje para consolidar conocimientos en desarrollo Fullstack, integración de frontend y backend y persistencia de datos en aplicaciones empresariales.
